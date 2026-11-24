@@ -1,15 +1,12 @@
-import { useState } from "react";
 import "./App.css";
+import List from "./List";
+import Profile from "./Profile";
 
 function App() {
   return (
     <article>
-      <h1>My First Component</h1>
-      <ol>
-        <li>Components: UI Building Blocks</li>
-        <li>Defining a Component</li>
-        <li>Using a Component</li>
-      </ol>
+      <Profile />
+      <List />
     </article>
   );
 }
